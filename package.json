@@ -12,6 +12,8 @@
     "react-dom": "^18.2.0",
     "react-relay": "15.0.0",
     "react-scripts": "5.0.1",
+    "relay-hooks": "^7.2.1",
+    "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,6 +43,6 @@
   },
   "devDependencies": {
     "babel-plugin-relay": "15.0.0",
-    "relay-compiler": "15.0.0"
+    "relay-compiler": "^15.0.0"
   }
 }

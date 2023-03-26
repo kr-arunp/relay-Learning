@@ -48,7 +48,6 @@ const AuthorType = new GraphQLObjectType({
     },
   }),
 });
-
 const BookType = new GraphQLObjectType({
   name: "Book",
   description: "This is the book List",
@@ -168,18 +167,6 @@ const schema = new GraphQLSchema({
   query: RootQueryType,
   mutation:RootMutationType,
 });
-// const schema = new GraphQLSchema({
-//   query: new GraphQLObjectType({
-//     name: "Hello",
-//     fields: () => ({
-// 		message: {
-// 			type: GraphQLString ,
-//            resolve: () => "hello world",
-// 		}
-//     }),
-//   }),
-// });
-
 app.use(
   "/graphql",
   expressGraphQL({

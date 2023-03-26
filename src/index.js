@@ -9,9 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <RelayEnvironmentProvider environment={RelayEnvironment}>
-    <React.StrictMode>
       <App />
-    </React.StrictMode>
   </RelayEnvironmentProvider>
 );
 

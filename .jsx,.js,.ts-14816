@@ -106,3 +106,20 @@
 [2023-03-26:18:56:17 TabNine INFO] New active private model: None
 [2023-03-26:18:56:17 TabNine INFO] sleeping for maximum of 3600s
 [2023-03-26:18:56:17 TabNine INFO] pro advanced completions capabilities subscriber detected a change
+[2023-03-26:19:06:47 TabNine INFO] Sending finished message from Input
+[2023-03-26:19:06:47 TabNine INFO] Sending finished message from ChannelWorker("default")
+[2023-03-26:19:06:47 TabNine INFO] Sending error message from Output: Broken pipe (os error 32)
+[2023-03-26:19:06:48 TabNine INFO] exiting....
+[2023-03-26:19:06:48 TabNine INFO] child process 15054 exited with status exit status: 0...
+[2023-03-26:19:06:54 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:50848
+[2023-03-26:19:06:55 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:50850
+[2023-03-26:19:15:09 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:55388
+[2023-03-26:19:15:09 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:55396
+[2023-03-26:20:00:19 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:50386
+[2023-03-26:20:00:20 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:50398
+[2023-03-26:20:02:48 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:52512
+[2023-03-26:20:02:49 TabNine-deep-local INFO] Got new local client connection 127.0.0.1:52516
+[2023-03-26:20:41:46 TabNine-deep-local WARN] An update was dropped because we couldn't acquire the lock.
+[2023-03-26:20:41:53 TabNine-deep-local WARN] An update was dropped because we couldn't acquire the lock.
+[2023-03-26:20:48:59 TabNine-deep-local WARN] An update was dropped because we couldn't acquire the lock.
+[2023-03-26:20:59:08 TabNine-deep-local WARN] An update was dropped because we couldn't acquire the lock.

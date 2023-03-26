@@ -3,18 +3,18 @@
 type Author {
   id: Int!
   name: String!
-  books: [Book!]!
+  authorId: Int!
+  books: [Book]
 }
 
 type Book {
   id: Int!
   name: String!
-  author: Author!
+  authorId: Int!
+  authors: Author
 }
 
 type Query {
-  authors: [Author!]!
-  author(id: Int!): Author
-  books: [Book!]!
-  book(id: Int!): Book
+  books: [Book]
+  authors: [Author]
 }

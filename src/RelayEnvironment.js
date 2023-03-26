@@ -3,7 +3,7 @@ import { Environment, Network, RecordSource, Store } from "relay-runtime";
 const HTTP_ENDPOINT = "http://localhost:8080/graphql";
 
 const fetchFn = async (request, variables) => {
-  const resp = await fetch(HTTP_ENDPOINT, {
+  const resp=await fetch(HTTP_ENDPOINT, {
     method: "POST",
     headers: {
       Accept:
@@ -16,7 +16,6 @@ const fetchFn = async (request, variables) => {
       variables,
     }),
   });
-
   return await resp.json();
 };
 

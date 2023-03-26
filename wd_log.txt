@@ -1,0 +1,29 @@
+[2023-03-26:18:35:15 WD-TabNine INFO] Migrating configuration properties if necessary...
+[2023-03-26:18:35:15 WD-TabNine INFO] Migrating configuration properties if necessary...
+[2023-03-26:18:35:15 WD-TabNine INFO] starting heartbeat loop for watchdog
+[2023-03-26:18:35:15 WD-TabNine INFO] starting heartbeat loop for watchdog
+[2023-03-26:18:35:15 WD-TabNine INFO] terminating because another watchdog is already running.
+[2023-03-26:18:35:15 WD-TabNine INFO] watching new process 12805-TabNine
+[2023-03-26:18:35:15 WD-TabNine INFO] watching new process 12863-TabNine
+[2023-03-26:18:35:24 WD-TabNine INFO] watching new process 13090-TabNine-deep-local
+[2023-03-26:18:35:24 WD-TabNine INFO] watching new process 12942-TabNine
+[2023-03-26:18:35:24 WD-TabNine INFO] watching new process 12986-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] watching new process 13861-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] watching new process 13892-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] watching new process 13765-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] watching new process 13820-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] stop watching process 12942-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] stop watching process 12863-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] stop watching process 12986-TabNine
+[2023-03-26:18:35:48 WD-TabNine INFO] stop watching process 12805-TabNine
+[2023-03-26:18:35:56 WD-TabNine INFO] stop watching process 14013-TabNine-deep-local
+[2023-03-26:18:36:04 WD-TabNine INFO] stop watching process 13820-TabNine
+[2023-03-26:18:36:04 WD-TabNine INFO] stop watching process 13765-TabNine
+[2023-03-26:18:36:04 WD-TabNine INFO] stop watching process 13892-TabNine
+[2023-03-26:18:36:04 WD-TabNine INFO] stop watching process 13861-TabNine
+[2023-03-26:18:36:21 WD-TabNine INFO] watching new process 15204-TabNine-deep-local
+[2023-03-26:18:36:21 WD-TabNine INFO] watching new process 15054-TabNine
+[2023-03-26:18:36:21 WD-TabNine INFO] watching new process 15015-TabNine
+[2023-03-26:18:36:21 WD-TabNine INFO] watching new process 15107-TabNine
+[2023-03-26:18:36:21 WD-TabNine INFO] watching new process 14938-TabNine
+[2023-03-26:18:36:21 WD-TabNine INFO] stop watching process 13090-TabNine-deep-local

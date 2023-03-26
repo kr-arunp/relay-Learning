@@ -1,0 +1,20 @@
+# @format
+
+type Author {
+  id: Int!
+  name: String!
+  books: [Book!]!
+}
+
+type Book {
+  id: Int!
+  name: String!
+  author: Author!
+}
+
+type Query {
+  authors: [Author!]!
+  author(id: Int!): Author
+  books: [Book!]!
+  book(id: Int!): Book
+}

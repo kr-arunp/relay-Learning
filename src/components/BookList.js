@@ -10,7 +10,8 @@ const BookList = ( {data} ) => {
         <div key={book.name} className="book-card">
           <h2 className="book-title"> Book Name:{book.name}</h2>
           <p className="book-author"> Author Id:{book.authorId}</p>
-        </div>  
+          <p className="book-author"> Author Id:{book.authorId}</p>
+        </div>
       ))}
     </div>
   );

@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<feee8d500076265caf55fd2e0443cc78>>
+ * @generated SignedSource<<54fd029d053ae6819e7a06880d3dc9c6>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -9,7 +9,14 @@
 'use strict';
 
 var node = (function(){
-var v0 = [
+var v0 = {
+  "alias": null,
+  "args": null,
+  "kind": "ScalarField",
+  "name": "name",
+  "storageKey": null
+},
+v1 = [
   {
     "alias": null,
     "args": null,
@@ -18,18 +25,24 @@ var v0 = [
     "name": "books",
     "plural": true,
     "selections": [
-      {
-        "alias": null,
-        "args": null,
-        "kind": "ScalarField",
-        "name": "name",
-        "storageKey": null
-      },
+      (v0/*: any*/),
       {
         "alias": null,
         "args": null,
         "kind": "ScalarField",
         "name": "authorId",
+        "storageKey": null
+      },
+      {
+        "alias": null,
+        "args": null,
+        "concreteType": "Author",
+        "kind": "LinkedField",
+        "name": "authors",
+        "plural": false,
+        "selections": [
+          (v0/*: any*/)
+        ],
         "storageKey": null
       }
     ],
@@ -42,7 +55,7 @@ return {
     "kind": "Fragment",
     "metadata": null,
     "name": "BooksQuery",
-    "selections": (v0/*: any*/),
+    "selections": (v1/*: any*/),
     "type": "Query",
     "abstractKey": null
   },
@@ -51,19 +64,19 @@ return {
     "argumentDefinitions": [],
     "kind": "Operation",
     "name": "BooksQuery",
-    "selections": (v0/*: any*/)
+    "selections": (v1/*: any*/)
   },
   "params": {
-    "cacheID": "0c7319f93fcf1f1cdeaf3002ded8cfee",
+    "cacheID": "46c844080d14fa3527bf589dd49cb3ac",
     "id": null,
     "metadata": {},
     "name": "BooksQuery",
     "operationKind": "query",
-    "text": "query BooksQuery {\n  books {\n    name\n    authorId\n  }\n}\n"
+    "text": "query BooksQuery {\n  books {\n    name\n    authorId\n    authors {\n      name\n    }\n  }\n}\n"
   }
 };
 })();
 
-node.hash = "75147addc21e04a8a50c6374d9109281";
+node.hash = "395565fe36f9d50ef08a7c276bf73de8";
 
 module.exports = node;

@@ -17,11 +17,22 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "relay-compiler && react-scripts start",
     "build": "relay-compiler --validate && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "relay": "relay-compiler"
+    "relay": "relay-compiler",
+    "watch_relay": "npm-watch relay"
+  },
+  "watch": {
+    "relay": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,ts,tsx,jsx",
+      "ignore": "src/components/__generated__/*",
+      "verbose": true
+    }
   },
   "eslintConfig": {
     "extends": [

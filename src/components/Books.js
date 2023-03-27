@@ -12,6 +12,9 @@ const Books = () => {
         books {
           name
           authorId
+          authors {
+            name
+          }
         }
       }
     `
